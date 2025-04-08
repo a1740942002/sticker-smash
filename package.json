@@ -13,7 +13,11 @@
     "eas:configure": "eas build:configure",
     "eas:development-android": "eas build --platform android --profile development",
     "eas:development-ios": "eas build --platform ios --profile development",
-    "eas:simulator-ios": "eas build --platform ios --profile ios-simulator"
+    "eas:simulator-ios": "eas build --platform ios --profile ios-simulator",
+    "eas:register-ios-device": "eas device:create",
+    "eas:build-android": "eas build --platform android",
+    "eas:build-ios": "eas build --platform ios",
+    "eas:submit-ios": "eas submit --platform ios"
   },
   "jest": {
     "preset": "jest-expo"
