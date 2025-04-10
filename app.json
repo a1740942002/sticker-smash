@@ -9,6 +9,7 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
+      "image": "latest",
       "supportsTablet": true,
       "bundleIdentifier": "com.a1740942002.stickersmash",
       "infoPlist": {
@@ -16,6 +17,7 @@
       }
     },
     "android": {
+      "image": "latest",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
